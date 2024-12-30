@@ -1,27 +1,69 @@
-# LifeCycle
+# 🛒 Lista de Compras
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+Bem-vindo ao projeto **Lista de Compras**, desenvolvido durante o curso **Angular: Ciclo de Vida**. Esta aplicação demonstra como lidar com os eventos do ciclo de vida dos componentes no Angular, como criação, renderização, alterações de propriedades e destruição. 
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## 🚀 Funcionalidades
 
-## Code scaffolding
+- **Adicionar Itens**:
+  - Insira o nome do item para adicioná-lo à lista de compras.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Editar Itens**:
+  - Altere o nome de um item existente na lista.
 
-## Build
+- **Marcar como Comprado**:
+  - Clique para marcar um item como comprado.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Excluir Itens**:
+  - Remova um item da lista ao clicar no botão de exclusão.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🎯 Objetivo do Projeto
 
-## Running end-to-end tests
+Esta aplicação explora os métodos e eventos do ciclo de vida dos componentes Angular:
+- **ngOnInit**: Inicialização do componente.
+- **ngOnChanges**: Alteração de propriedades de entrada.
+- **ngDoCheck**: Detecção de alterações personalizadas.
+- **ngAfterViewInit**: Finalização da renderização da view.
+- **ngOnDestroy**: Destruição do componente.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## 🛠️ Tecnologias Utilizadas
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- **Angular** - Framework para construção da interface.
+- **TypeScript** - Para tipagem e organização do código.
+- **HTML** - Estruturação dos componentes.
+- **CSS** - Estilização da aplicação.
+
+
+## 📂 Como Rodar o Projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/lista-de-compras.git
+   ```
+
+2. Acesse o diretório do projeto:
+   ```bash
+   cd lista-de-compras
+   ```
+
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+4. Execute o projeto:
+   ```bash
+   ng serve
+   ```
+
+5. Acesse no navegador:
+   ```
+   http://localhost:4200
+   ```
+
+## 🎬 Imagens / Vídeos
+
+![life-cycle-angular](https://github.com/user-attachments/assets/0ab2d72c-c932-4f70-af05-b3a6422c2b32)
+
